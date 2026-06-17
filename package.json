@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://chdaniyalhider911-alt.github.io/Online-world-radio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
