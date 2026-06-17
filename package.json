@@ -5,12 +5,15 @@
   "type": "module",
   "homepage": "https://chdaniyalhider911-alt.github.io/Online-world-radio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
